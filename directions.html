@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <title>jQuery Three</title>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <style>
         * {
             box-sizing: border-box;
@@ -17,19 +18,24 @@
         section {
             margin-top: 20px;
         }
+        
+        input[type=checkbox] {
+            margin-right: 5px;
+        }
     </style>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-
 </head>
 
 <body>
     <div class="container" id="container">
         <section>
+            <h1>jQuery Three : Directions</h1>
             <h2>Functional Programming with jQuery</h2>
-            <p><a href="notes/functional-jquery.html">Learn a little more.</a></p>
-            <p><a href="notes/functional-jquery-project.html">Try this exercise.</a></p>
+            <ol>
+                <li>
+                    <input type="checkbox"><strong>Exercise 1: </strong><a href="notes/functional-jquery.html" target="_blank">Learn a little more.</a></li>
+                <li>
+                    <input type="checkbox"><strong>Exercise 2: </strong><a href="notes/functional-jquery-project.html" target="_blank">Try this exercise.</a></li>
+            </ol>
         </section>
         <hr>
         <section>
@@ -52,8 +58,7 @@
                 <li>sortBy</li>
             </ul>
             <hr>
-            <h3>EXERCISE</h3>
-            <p>Build an e-commerce site (like Amazon) that lists items for sale. The items should be stored as an array of objects and then displayed onto the page. The user should be able to <a href="notes/web-forms.html">fill out form inputs</a>                to search and sort products by certain properties (price, category, keyword, etc). Challenge yourself to use as many different underscore functions as possible, even if it seems a bit contrived.</p>
+
         </section>
 </body>
 
